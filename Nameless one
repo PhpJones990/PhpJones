@@ -1,0 +1,25 @@
+fakecode="010101100101010100110"
+GG=None
+def fkc():
+    print(fakecode * 99999)
+while True:
+    z=input("Type Run: ")
+    if z == "Run":
+        break
+    elif z == "RUN":
+        break
+    elif GG == None:
+        try:
+            x=float(z)
+            if x >= -1 or x <= 0:
+                print("I said 'Type Run' :) ")
+                continue
+        except:
+            print("I said 'Type Run' :) ")
+            continue
+while True:
+    fkc()
+y=input("Enter Anything To Quit: ")
+quit
+#just nothing 
+#Name this file
