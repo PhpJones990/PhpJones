@@ -19,7 +19,6 @@ while True:
             continue
 while True:
     fkc()
-y=input("Enter Anything To Quit: ")
-quit
+
 #just nothing 
 #Name this file
